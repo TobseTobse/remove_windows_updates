@@ -1,38 +1,38 @@
 @echo off
 echo The following list is from https://gist.github.com/xvitaly/eafa75ed2cb79b3bd4e9
-echo Uninstalling KB3075249 (telemetry for Win7/8.1)
+echo Uninstalling KB3075249 (Telemetry for Win7/8.1)
 start /w wusa.exe /uninstall /kb:3075249 /quiet /norestart
-echo Uninstalling KB3080149 (telemetry for Win7/8.1)
+echo Uninstalling KB3080149 (Telemetry for Win7/8.1)
 start /w wusa.exe /uninstall /kb:3080149 /quiet /norestart
-echo Uninstalling KB3021917 (telemetry for Win7)
+echo Uninstalling KB3021917 (Windows 10 Upgrade preparatioon + Telemetry for Win 7)
 start /w wusa.exe /uninstall /kb:3021917 /quiet /norestart
-echo Uninstalling KB3022345 (telemetry)
+echo Uninstalling KB3022345 (Telemetry)
 start /w wusa.exe /uninstall /kb:3022345 /quiet /norestart
-echo Uninstalling KB3068708 (telemetry)
+echo Uninstalling KB3068708 (Update for customer experience and diagnostic telemetry)
 start /w wusa.exe /uninstall /kb:3068708 /quiet /norestart
 echo Uninstalling KB3044374 (Get Windows 10 for Win8.1)
 start /w wusa.exe /uninstall /kb:3044374 /quiet /norestart
-echo Uninstalling KB3035583 (Get Windows 10 for Win7sp1/8.1)
+echo Uninstalling KB3035583 (Windows 10 upgrade preparation for Win7sp1/8.1)
 start /w wusa.exe /uninstall /kb:3035583 /quiet /norestart
 echo Uninstalling KB2990214 (Get Windows 10 for Win7)
 start /w wusa.exe /uninstall /kb:2990214 /quiet /norestart
-echo Uninstalling KB2952664 (Get Windows 10 assistant)
+echo Uninstalling KB2952664 (Get Windows 10 assistant, adds telemetry)
 start /w wusa.exe /uninstall /kb:2952664 /quiet /norestart
-echo Uninstalling KB3075853 (update for "Windows Update" on Win8.1/Server 2012R2)
+echo Uninstalling KB3075853 (Update for "Windows Update" on Win8.1/Server 2012R2)
 start /w wusa.exe /uninstall /kb:3075853 /quiet /norestart
-echo Uninstalling KB3065987 (update for "Windows Update" on Win7/Server 2008R2)
+echo Uninstalling KB3065987 (Update for "Windows Update" on Win7/Server 2008R2)
 start /w wusa.exe /uninstall /kb:3065987 /quiet /norestart
 echo Uninstalling KB3050265 (update for "Windows Update" on Win7 - installs a new Group Policy object that enables you to block Win10 upgrades)
 start /w wusa.exe /uninstall /kb:3050265 /quiet /norestart
-echo Uninstalling KB971033  (license validation)
+echo Uninstalling KB971033 (License validation)
 start /w wusa.exe /uninstall /kb:971033 /quiet /norestart
-echo Uninstalling KB2902907 (description not available)
+echo Uninstalling KB2902907 (Description not available)
 start /w wusa.exe /uninstall /kb:2902907 /quiet /norestart
-echo Uninstalling KB2976987 (description not available)
+echo Uninstalling KB2976987 (Description not available)
 start /w wusa.exe /uninstall /kb:2976987 /quiet /norestart
-echo Uninstalling KB2976978 (compactibility update for Windows 8.1)
+echo Uninstalling KB2976978 (Windows 10 Upgrade preparation for Windows 8.1)
 start /w wusa.exe /uninstall /kb:2976978 /quiet /norestart
-echo Uninstalling KB3102810 (update for "Windows Update")
+echo Uninstalling KB3102810 (Update for "Windows Update")
 start /w wusa.exe /uninstall /kb:3102810 /quiet /norestart
 echo Uninstalling KB3112343 (Windows Update Client for Windows 7)
 start /w wusa.exe /uninstall /kb:3112343 /quiet /norestart
@@ -50,7 +50,7 @@ echo Uninstalling KB3138615 (Windows Update Client for Windows 8.1)
 start /w wusa.exe /uninstall /kb:3138615 /quiet /norestart
 echo Uninstalling KB3150513 (Compactibility Update (another GWX) for Windows 7/8.1)
 start /w wusa.exe /uninstall /kb:3150513 /quiet /norestart
-echo Uninstalling KB3133977 (buggy update)
+echo Uninstalling KB3133977 (Buggy update)
 start /w wusa.exe /uninstall /kb:3133977 /quiet /norestart
 echo Uninstalling KB3139923 (Another GWX for Windows 7/8.1)
 start /w wusa.exe /uninstall /kb:3139923 /quiet /norestart
@@ -105,20 +105,26 @@ start /w wusa.exe /uninstall /kb:3112336 /quiet /norestart
 echo Uninstalling KB3118401 (Allows Windows 10 dependant Universal Runtime apps to run on earlier versions of Windows)
 start /w wusa.exe /uninstall /kb:3118401 /quiet /norestart
 
-echo The following Updates have been suggested by User wincat71 on https://gist.github.com/xvitaly/eafa75ed2cb79b3bd4e9
-echo Uninstalling KB3045999 (description not available)
+echo The following updates have been suggested by User wincat71 on https://gist.github.com/xvitaly/eafa75ed2cb79b3bd4e9
+echo Uninstalling KB3045999 (Description not available)
 start /w wusa.exe /uninstall /kb:3045999 /quiet /norestart
-echo Uninstalling KB2919355 (description not available)
+echo Uninstalling KB2919355 (Description not available)
 start /w wusa.exe /uninstall /kb:2919355 /quiet /norestart
-echo Uninstalling KB3015249 (description not available)
+echo Uninstalling KB3015249 (Description not available)
 start /w wusa.exe /uninstall /kb:3015249 /quiet /norestart
-echo Uninstalling KB2922324 (description not available)
+echo Uninstalling KB2922324 (Description not available)
 start /w wusa.exe /uninstall /kb:2922324 /quiet /norestart
-echo Uninstalling KB3088195 (description not available)
+echo Uninstalling KB3088195 (Description not available)
 start /w wusa.exe /uninstall /kb:3088195 /quiet /norestart
-echo Uninstalling KB2505438 (description not available)
+echo Uninstalling KB2505438 (Although it claims to fix performance issues, it often breaks fonts)
 start /w wusa.exe /uninstall /kb:2505438 /quiet /norestart
-echo Uninstalling KB2670838 (description not available)
+echo Uninstalling KB2670838 (The EVIL Update, breaks AERO on Windows 7 and makes some fonts on websites fuzzy, Windows 7 specific update only, do not install IE10 or 11 otherwise it will be bundled with them, IE9 is the max version you should install)
 start /w wusa.exe /uninstall /kb:2670838 /quiet /norestart
-echo Uninstalling KB3072630 (description not available)
+echo Uninstalling KB3072630 (Description not available)
 start /w wusa.exe /uninstall /kb:3072630 /quiet /norestart
+
+echo The following list is from http://www.overclock.net/t/1587577/windows-7-updates-list-descriptions-telemetry
+echo Uninstalling KB3184143 (Software related to the Windows 10 free upgrade offer)
+start /w wusa.exe /uninstall /kb:3184143 /quiet /norestart
+echo Uninstalling KB2786081 (Internet Explorer 10 does not save credentials for a website after you log off or restart a computer)
+start /w wusa.exe /uninstall /kb:2786081 /quiet /norestart
