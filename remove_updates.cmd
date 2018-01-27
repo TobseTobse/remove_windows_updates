@@ -128,3 +128,19 @@ echo Uninstalling KB3184143 (Software related to the Windows 10 free upgrade off
 start /w wusa.exe /uninstall /kb:3184143 /quiet /norestart
 echo Uninstalling KB2786081 (Internet Explorer 10 does not save credentials for a website after you log off or restart a computer)
 start /w wusa.exe /uninstall /kb:2786081 /quiet /norestart
+
+echo The following list is from https://www.addictivetips.com/windows-tips/a-complete-list-of-all-updates-you-should-uninstall-to-block-windows-10
+echo Uninstalling KB3146449 (Updated Internet Explorer 11 capabilities to upgrade to Windows 10)
+start /w wusa.exe /uninstall /kb:3146449 /quiet /norestart
+echo Uninstalling KB3046480 (Helps to determine whether to migrate the .NET Framework 1.1)
+start /w wusa.exe /uninstall /kb:3046480 /quiet /norestart
+
+echo The following list is from http://forums.pixeltailgames.com/t/windows-7-8-windows-updates-to-avoid-telemetry/9977
+echo Uninstalling KB3086255 (Flagged as an Important update. It disables SafeDisc games in Windows Vista, 7, and 8/8.1)
+start /w wusa.exe /uninstall /kb:3086255 /quiet /norestart
+echo Uninstalling KB3107998 (Removes Lenovo USB Blocker)
+start /w wusa.exe /uninstall /kb:3107998 /quiet /norestart
+echo Uninstalling KB3135449 (Windows 10 Upgrade for Windows 8)
+start /w wusa.exe /uninstall /kb:3135449 /quiet /norestart
+echo Uninstalling KB3148198 (Cumulative update for IE11. Includes previous Windows 10 preparation)
+start /w wusa.exe /uninstall /kb:3148198 /quiet /norestart
